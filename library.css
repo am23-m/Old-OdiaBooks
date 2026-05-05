@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: radial-gradient(circle, rgba(56,189,248,0.4), transparent 70%);;
+}
+
+/* PAGE */
+.library-page {
+  padding: 15px;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding-left: 10px;
+}
+
+/* BOOK CARD */
+.book-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: radial-gradient(circle, rgba(56,189,248,0.4), transparent 70%);;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ICON */
+.icon {
+  font-size: 22px;
+  color: #3498db;
+  margin-right: 10px;
+}
+
+/* BUTTON */
+.book-card button {
+  background: #3498db;
+  color: radial-gradient(circle, rgba(56,189,248,0.4), transparent 70%);;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* VIDEO */
+.video-section {
+  margin-top: 20px;
+  background: radial-gradient(circle, rgba(56,189,248,0.4), transparent 70%);;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #121212;
+  color: radial-gradient(circle, rgba(56,189,248,0.4), transparent 70%);;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 400px;   /* size control */
+  height: 220px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
